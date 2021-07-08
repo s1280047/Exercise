@@ -4,6 +4,11 @@
 
 int main(){
 	int i,num,total=0;
+	char name[1000];
+	printf("What is your name?\n");
+  	printf("> ");
+  	scanf("%s",&name);
+	printf("Hello, %s!\n",name);
 	printf("Rolling the dice...\n");
 	srand((unsigned int)time(NULL));
 	for(i = 1;i <= 2;i++){
