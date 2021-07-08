@@ -5,6 +5,7 @@
 int main(){
 	int i,num,total=0;
 	char name[1000];
+	printf("Won/lost message modefied\n");
 	printf("What is your name?\n");
   	printf("> ");
   	scanf("%s",&name);
